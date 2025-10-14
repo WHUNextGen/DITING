@@ -71,7 +71,6 @@ Model inference for local models is conducted  with **VLLM framework**（Seed-X-
 
 For API-based models, evaluation is performed following the official document .
 
----
 
 ## Key Results
 
