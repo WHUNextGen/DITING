@@ -89,7 +89,7 @@ This study was conducted in accordance with established ethical guidelines for r
 
 # Updates
 
-- **[2025/10/14]** 🎉 We've already posted our paper on arxiv (<a href="https://arxiv.org/pdf/2510.09116">arxiv paper</a> )
+- **[2025/10/14]** 🎉 We've already posted our paper on arxiv (<a href="https://arxiv.org/pdf/2510.09116">arxiv paper</a>)
 
 
 
