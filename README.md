@@ -4,7 +4,8 @@
 
 <p align="center">
   <a href="https://huggingface.co/papers/2510.09116">🤗 Hugging Face</a> |
-  <a href="https://arxiv.org/pdf/2510.09116">📄 Arxiv</a> 
+  <a href="https://arxiv.org/pdf/2510.09116">📄 Arxiv</a> |
+  <a href="https://huggingface.co/spaces/NextGenWhu/DITING-leaderboard"> 🏆 DITING-leaderboard
 </p>
 
 
