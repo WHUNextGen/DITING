@@ -7,9 +7,9 @@
   <a href="https://arxiv.org/pdf/2510.09116">📄 Arxiv</a> |
   <a href="https://huggingface.co/spaces/TheFinAI/open-finllm-reasoning-leaderboard">🏆 Leaderboard(FinReason)</a>
 </p>
-<p align="center">
+
 ![](https://black.readthedocs.io/en/stable/_static/license.svg)
-</p>
+
 
 ---
 
