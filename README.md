@@ -1,15 +1,14 @@
 <!-- Title -->
 
-<h1 align="center">DITING: A Multi-Agent Evaluation Framework for Benchmarking Web Novel Translation</h1>
+![image-20251017125651520](readme.assets/image-20251017125651520.png)
 
 <p align="center">
-  <a href="https://huggingface.co/papers/2510.09116">🤗 Hugging Face</a> |
+  <a href="https://huggingface.co/datasets/NextGenWhu/DITING">🤗Data</a> |
   <a href="https://arxiv.org/pdf/2510.09116">📄 Arxiv</a> |
-  <a href="https://huggingface.co/spaces/NextGenWhu/DITING-leaderboard"> 🏆 DITING-leaderboard
+  <a href="https://huggingface.co/spaces/TheFinAI/open-finllm-reasoning-leaderboard">🏆 Leaderboard(FinReason)</a>
 </p>
 
-
-
+![](https://black.readthedocs.io/en/stable/_static/license.svg)
 
 
 ---
@@ -39,7 +38,7 @@ Starting from billions of chapter-level Chinese–English bilingual passages col
 
 ## MetricAlign
 
-To assess how closely automatic metrics align with expert judgment, we construct MetricAlign, the first meta-evaluation dataset featuring exhaustive expert annotations across diverse linguistic and cultural translation phenomena. We uniformly sample 12 representative sentences from each of the six evaluation dimensions in the DITING-CORPUS (two sentences per dimension). Each source sentence is translated by 25 LLMs, covering both open-source and proprietary systems, including multilingual and machine-translation–specific models. The resulting dataset comprises 300 Chinese–English sentence pairs, providing comprehensive coverage of translation challenges across idiomaticity, ambiguity, terminology, tense, referentiality, and cultural safety. All translations were evaluated by the same three domain experts under a rigorously defined annotation protocol. 
+To assess how closely automatic metrics align with expert judgment, we construct MetricAlign, the first meta-evaluation dataset featuring exhaustive expert annotations across diverse linguistic and cultural translation phenomena. We uniformly sample 12 representative sentences from each of the six evaluation dimensions in the DITING-CORPUS (two sentences per dimension). Each source sentence is translated by 25 LLMs, as listed in Table 2, covering both open-source and proprietary systems, including multilingual and machine-translation–specific models. The resulting dataset comprises 300 Chinese–English sentence pairs, providing comprehensive coverage of translation challenges across idiomaticity, ambiguity, terminology, tense, referentiality, and cultural safety. All translations were evaluated by the same three domain experts under a rigorously defined annotation protocol. 
 
 |           Task           |         Dimension         | Type  |            Scoring Criteria (2 / 1 / 0)            |
 | :----------------------: | :-----------------------: | :---: | :------------------------------------------------: |
@@ -72,6 +71,7 @@ Model inference for local models is conducted  with **VLLM framework**（Seed-X-
 
 For API-based models, evaluation is performed following the official document .
 
+---
 
 ## Key Results
 
@@ -89,7 +89,7 @@ This study was conducted in accordance with established ethical guidelines for r
 
 # Updates
 
-- **[2025/10/14]** 🎉 We've already posted our paper on arxiv (<a href="https://arxiv.org/pdf/2510.09116">arxiv paper</a>)
+- **[2025/10/14]** 🎉 We've already posted our paper on arxiv (<a href="https://arxiv.org/pdf/2510.09116">arxiv paper</a> )
 
 
 
